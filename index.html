@@ -1,0 +1,26 @@
+<html>
+    <head>
+        Hello Testing
+    </head>
+    <body>
+        <h1>Hello Javascript</h1>
+        <script>
+            let calculate = (a,b) => {
+                return a+b;
+            }
+
+            calculate(1,2);
+
+            let names = ["Aye Aye","Su Su","Mya Mya"];
+            let mapNames = names.map(function(name){
+                return console.log("Happuy" + name);
+            })
+
+            let numbers = [1,2,3,4,5,6,7,8,9,0];
+            let filterArr = numbers.filter((num) => {
+                return num%2;
+            })
+            console.log(filterArr);
+    </script>
+    </body>
+</html>
